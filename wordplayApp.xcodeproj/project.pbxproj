@@ -14,6 +14,7 @@
 		E7D37FC41C15DFF70003974D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7D37FC21C15DFF70003974D /* LaunchScreen.storyboard */; };
 		E7D37FCF1C15DFF70003974D /* wordplayAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D37FCE1C15DFF70003974D /* wordplayAppTests.swift */; };
 		E7D37FDA1C15DFF80003974D /* wordplayAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D37FD91C15DFF80003974D /* wordplayAppUITests.swift */; };
+		E7D37FE81C15E5310003974D /* MadLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D37FE71C15E5310003974D /* MadLib.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E7D37FD51C15DFF80003974D /* wordplayAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wordplayAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7D37FD91C15DFF80003974D /* wordplayAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordplayAppUITests.swift; sourceTree = "<group>"; };
 		E7D37FDB1C15DFF80003974D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7D37FE71C15E5310003974D /* MadLib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MadLib.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				E7D37FB91C15DFF70003974D /* AppDelegate.swift */,
 				E7D37FBB1C15DFF70003974D /* ViewController.swift */,
 				E7D37FBD1C15DFF70003974D /* Main.storyboard */,
+				E7D37FE71C15E5310003974D /* MadLib.swift */,
 				E7D37FC01C15DFF70003974D /* Assets.xcassets */,
 				E7D37FC21C15DFF70003974D /* LaunchScreen.storyboard */,
 				E7D37FC51C15DFF70003974D /* Info.plist */,
@@ -258,6 +261,7 @@
 			files = (
 				E7D37FBC1C15DFF70003974D /* ViewController.swift in Sources */,
 				E7D37FBA1C15DFF70003974D /* AppDelegate.swift in Sources */,
+				E7D37FE81C15E5310003974D /* MadLib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
