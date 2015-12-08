@@ -48,10 +48,10 @@
             </objects>
             <point key="canvasLocation" x="1252" y="349"/>
         </scene>
-        <!--View Controller-->
+        <!--Verb View Controller-->
         <scene sceneID="Ty1-FV-cl2">
             <objects>
-                <viewController id="zZf-NJ-EGw" customClass="ViewController" customModule="wordplayApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="zZf-NJ-EGw" customClass="VerbViewController" customModule="wordplayApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="zDQ-iP-uSa"/>
                         <viewControllerLayoutGuide type="bottom" id="JR0-IC-FBV"/>
@@ -82,7 +82,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="verbTextField" destination="gwf-o5-kFy" id="Ez0-il-hxq"/>
+                        <outlet property="verbTextField" destination="gwf-o5-kFy" id="9Ea-Zh-rAQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SQ7-dL-7PF" userLabel="First Responder" sceneMemberID="firstResponder"/>
