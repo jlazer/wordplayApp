@@ -32,6 +32,7 @@
                                 <rect key="frame" x="277" y="172" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
+                                    <action selector="nounOnButtonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dpZ-0d-59Q"/>
                                     <segue destination="zZf-NJ-EGw" kind="show" id="Y3c-bX-I1t"/>
                                 </connections>
                             </button>
@@ -50,7 +51,7 @@
         <!--View Controller-->
         <scene sceneID="Ty1-FV-cl2">
             <objects>
-                <viewController id="zZf-NJ-EGw" sceneMemberID="viewController">
+                <viewController id="zZf-NJ-EGw" customClass="ViewController" customModule="wordplayApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="zDQ-iP-uSa"/>
                         <viewControllerLayoutGuide type="bottom" id="JR0-IC-FBV"/>
@@ -80,6 +81,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="verbTextField" destination="gwf-o5-kFy" id="Ez0-il-hxq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SQ7-dL-7PF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -88,7 +92,7 @@
         <!--View Controller-->
         <scene sceneID="gvG-Z3-gcb">
             <objects>
-                <viewController id="cf5-VY-1uD" sceneMemberID="viewController">
+                <viewController id="cf5-VY-1uD" customClass="ViewController" customModule="wordplayApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Gbz-Y3-VwF"/>
                         <viewControllerLayoutGuide type="bottom" id="yn3-qI-vZ8"/>
@@ -118,6 +122,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="adjectiveTextField" destination="oga-lN-L2o" id="7vk-cj-nKm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dZY-eL-akh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
