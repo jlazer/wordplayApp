@@ -20,10 +20,12 @@ class AdjectiveViewController: UIViewController {
     }
 
     @IBAction func adjectiveOnButtonTap(sender: UIButton) {
+        madLibInAdjViewController.adjective = (adjectiveTextField.text!)
     }
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+   
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let nextViewController = segue.destinationViewController as! sentenceViewController
+        nextViewController.madLibInSentenceViewController = madLibInAdjViewController
     }
     
 

@@ -9,17 +9,18 @@
 import UIKit
 
 class sentenceViewController: UIViewController {
+    var madLibInSentenceViewController = madLib()
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        //Displaying the contents of the class in the console.
+        print(madLibInSentenceViewController.noun)
+        print(madLibInSentenceViewController.verb)
+        print(madLibInSentenceViewController.adjective)
 
         // Do any additional setup after loading the view.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
     
 
     /*
