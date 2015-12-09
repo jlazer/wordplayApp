@@ -69,6 +69,7 @@
                                 <rect key="frame" x="249" y="155" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
+                                    <action selector="verbOnButtonTap:" destination="zZf-NJ-EGw" eventType="touchUpInside" id="Tyq-4T-1WS"/>
                                     <segue destination="cf5-VY-1uD" kind="show" id="wkn-8h-LaD"/>
                                 </connections>
                             </button>
@@ -89,10 +90,10 @@
             </objects>
             <point key="canvasLocation" x="1968" y="349"/>
         </scene>
-        <!--View Controller-->
+        <!--Adjective View Controller-->
         <scene sceneID="gvG-Z3-gcb">
             <objects>
-                <viewController id="cf5-VY-1uD" customClass="ViewController" customModule="wordplayApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="cf5-VY-1uD" customClass="AdjectiveViewController" customModule="wordplayApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Gbz-Y3-VwF"/>
                         <viewControllerLayoutGuide type="bottom" id="yn3-qI-vZ8"/>
@@ -116,6 +117,7 @@
                                 <rect key="frame" x="277" y="166" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
+                                    <action selector="adjectiveOnButtonTap:" destination="cf5-VY-1uD" eventType="touchUpInside" id="hjt-2m-oXn"/>
                                     <segue destination="FOS-xl-31T" kind="show" id="fN6-4s-NjN"/>
                                 </connections>
                             </button>
@@ -123,17 +125,17 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="adjectiveTextField" destination="oga-lN-L2o" id="7vk-cj-nKm"/>
+                        <outlet property="adjectiveTextField" destination="oga-lN-L2o" id="Mls-BV-xOr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dZY-eL-akh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2662" y="349"/>
         </scene>
-        <!--View Controller-->
+        <!--Sentence View Controller-->
         <scene sceneID="14b-eH-79X">
             <objects>
-                <viewController id="FOS-xl-31T" sceneMemberID="viewController">
+                <viewController id="FOS-xl-31T" customClass="sentenceViewController" customModule="wordplayApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="sAo-gZ-Vt9"/>
                         <viewControllerLayoutGuide type="bottom" id="dgQ-pI-ILY"/>

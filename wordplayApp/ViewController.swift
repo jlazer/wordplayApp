@@ -11,7 +11,6 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var nounTexfField: UITextField!
    
-    @IBOutlet weak var adjectiveTextField: UITextField!
     
     var madLibInViewController = madLib()
 
@@ -26,10 +25,8 @@ class ViewController: UIViewController {
     }
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         let nextViewController = segue.destinationViewController as! VerbViewController
+        nextViewController.madLibInVerbViewController = madLibInViewController
     }
     
-    func nounToClassMadLib() {
-        
-    }
+    
 }
-

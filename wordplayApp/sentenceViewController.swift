@@ -1,31 +1,24 @@
 //
-//  VerbViewController.swift
+//  sentenceViewController.swift
 //  wordplayApp
 //
-//  Created by student1 on 12/8/15.
+//  Created by student1 on 12/9/15.
 //  Copyright © 2015 JohnHerseyHighSchool. All rights reserved.
 //
 
 import UIKit
 
-class VerbViewController: UIViewController {
-    var madLibInVerbViewController = madLib()
+class sentenceViewController: UIViewController {
 
-    @IBOutlet weak var verbTextField: UITextField!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func verbOnButtonTap(sender: UIButton) {
-        madLibInVerbViewController.verb = (verbTextField.text!)
-    }
-    
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        let nextViewController = segue.destinationViewController as! AdjectiveViewController
-        nextViewController.madLibInAdjViewController = madLibInVerbViewController
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
     }
     
 
