@@ -11,17 +11,21 @@ import UIKit
 class sentenceViewController: UIViewController {
     var madLibInSentenceViewController = madLib()
 
+    @IBOutlet weak var madLibSentenceLabel: UILabel!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         //Displaying the contents of the class in the console.
         print(madLibInSentenceViewController.noun)
         print(madLibInSentenceViewController.verb)
         print(madLibInSentenceViewController.adjective)
-
+madLibSentenceLabel.text = "\(madLibInSentenceViewController.noun) \(madLibInSentenceViewController.verb) \(madLibInSentenceViewController.adjective) "
         // Do any additional setup after loading the view.
     }
 
-    
+
 
     /*
     // MARK: - Navigation
