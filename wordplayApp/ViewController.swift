@@ -10,16 +10,19 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var nounTexfField: UITextField!
+    
+    
    
     
     var madLibInViewController = madLib()
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
+        nounTexfField.resignFirstResponder()
     }
 
     @IBAction func nounOnButtonTap(sender: UIButton) {

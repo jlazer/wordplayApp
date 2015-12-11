@@ -13,11 +13,11 @@
 		E7D37FBA1C15DFF70003974D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D37FB91C15DFF70003974D /* AppDelegate.swift */; };
 		E7D37FBC1C15DFF70003974D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D37FBB1C15DFF70003974D /* ViewController.swift */; };
 		E7D37FBF1C15DFF70003974D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7D37FBD1C15DFF70003974D /* Main.storyboard */; };
-		E7D37FC11C15DFF70003974D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7D37FC01C15DFF70003974D /* Assets.xcassets */; };
 		E7D37FC41C15DFF70003974D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7D37FC21C15DFF70003974D /* LaunchScreen.storyboard */; };
 		E7D37FCF1C15DFF70003974D /* wordplayAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D37FCE1C15DFF70003974D /* wordplayAppTests.swift */; };
 		E7D37FDA1C15DFF80003974D /* wordplayAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D37FD91C15DFF80003974D /* wordplayAppUITests.swift */; };
 		E7D37FE81C15E5310003974D /* MadLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D37FE71C15E5310003974D /* MadLib.swift */; };
+		E7E7C8F91C1B2868008F1886 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7E7C8F81C1B2868008F1886 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +45,6 @@
 		E7D37FB91C15DFF70003974D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7D37FBB1C15DFF70003974D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E7D37FBE1C15DFF70003974D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E7D37FC01C15DFF70003974D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7D37FC31C15DFF70003974D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7D37FC51C15DFF70003974D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7D37FCA1C15DFF70003974D /* wordplayAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wordplayAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,6 +54,7 @@
 		E7D37FD91C15DFF80003974D /* wordplayAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordplayAppUITests.swift; sourceTree = "<group>"; };
 		E7D37FDB1C15DFF80003974D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7D37FE71C15E5310003974D /* MadLib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MadLib.swift; sourceTree = "<group>"; };
+		E7E7C8F81C1B2868008F1886 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +105,7 @@
 		E7D37FB81C15DFF70003974D /* wordplayApp */ = {
 			isa = PBXGroup;
 			children = (
+				E7E7C8F81C1B2868008F1886 /* Assets.xcassets */,
 				E7D37FB91C15DFF70003974D /* AppDelegate.swift */,
 				E7D37FBD1C15DFF70003974D /* Main.storyboard */,
 				E7D37FBB1C15DFF70003974D /* ViewController.swift */,
@@ -112,7 +113,6 @@
 				E71F7AE21C18803E006061F2 /* AdjectiveViewController.swift */,
 				E71F7AE41C188148006061F2 /* sentenceViewController.swift */,
 				E7D37FE71C15E5310003974D /* MadLib.swift */,
-				E7D37FC01C15DFF70003974D /* Assets.xcassets */,
 				E7D37FC21C15DFF70003974D /* LaunchScreen.storyboard */,
 				E7D37FC51C15DFF70003974D /* Info.plist */,
 			);
@@ -242,7 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7D37FC41C15DFF70003974D /* LaunchScreen.storyboard in Resources */,
-				E7D37FC11C15DFF70003974D /* Assets.xcassets in Resources */,
+				E7E7C8F91C1B2868008F1886 /* Assets.xcassets in Resources */,
 				E7D37FBF1C15DFF70003974D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
