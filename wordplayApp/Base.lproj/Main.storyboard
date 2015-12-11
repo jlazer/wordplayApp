@@ -31,7 +31,7 @@
                                 </state>
                                 <connections>
                                     <action selector="nounOnButtonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dpZ-0d-59Q"/>
-                                    <segue destination="zZf-NJ-EGw" kind="show" id="Y3c-bX-I1t"/>
+                                    <segue destination="zZf-NJ-EGw" kind="show" identifier="nounSegue" id="Y3c-bX-I1t"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Enter A Noun" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x8s-a7-IMf">
@@ -53,7 +53,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1252" y="349"/>
+            <point key="canvasLocation" x="1040" y="349"/>
         </scene>
         <!--Verb View Controller-->
         <scene sceneID="Ty1-FV-cl2">
@@ -81,7 +81,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OWj-gQ-WNi">
-                                <rect key="frame" x="326" y="186" width="117" height="44"/>
+                                <rect key="frame" x="325" y="187" width="117" height="44"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Next Word">
@@ -89,7 +89,7 @@
                                 </state>
                                 <connections>
                                     <action selector="verbOnButtonTap:" destination="zZf-NJ-EGw" eventType="touchUpInside" id="Tyq-4T-1WS"/>
-                                    <segue destination="cf5-VY-1uD" kind="show" id="wkn-8h-LaD"/>
+                                    <segue destination="cf5-VY-1uD" kind="show" identifier="verbSegue" id="wkn-8h-LaD"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -103,7 +103,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SQ7-dL-7PF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1968" y="349"/>
+            <point key="canvasLocation" x="1862" y="349"/>
         </scene>
         <!--Adjective View Controller-->
         <scene sceneID="gvG-Z3-gcb">
@@ -139,7 +139,7 @@
                                 </state>
                                 <connections>
                                     <action selector="adjectiveOnButtonTap:" destination="cf5-VY-1uD" eventType="touchUpInside" id="hjt-2m-oXn"/>
-                                    <segue destination="FOS-xl-31T" kind="show" id="fN6-4s-NjN"/>
+                                    <segue destination="FOS-xl-31T" kind="show" identifier="adjectiveSegue" id="fN6-4s-NjN"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -153,7 +153,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dZY-eL-akh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2662" y="349"/>
+            <point key="canvasLocation" x="2708" y="349"/>
         </scene>
         <!--Sentence View Controller-->
         <scene sceneID="14b-eH-79X">
@@ -185,7 +185,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hNf-O5-g9A" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3342" y="349"/>
+            <point key="canvasLocation" x="3538" y="349"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="dxT-QN-ZZW">
@@ -205,7 +205,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WfA-ir-n3T" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="440" y="349"/>
+            <point key="canvasLocation" x="132" y="385"/>
         </scene>
     </scenes>
 </document>

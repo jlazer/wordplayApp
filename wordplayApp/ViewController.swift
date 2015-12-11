@@ -21,10 +21,19 @@ class ViewController: UIViewController, UITextFieldDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        nounTexfField.delegate = self
         // Do any additional setup after loading the view, typically from a nib.
-        nounTexfField.resignFirstResponder()
+       
     }
-
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        madLibInViewController.noun = (nounTexfField.text!)
+        textField.resignFirstResponder()
+        performSegueWithIdentifier("nounSegue", sender: nil)
+    
+        return true
+    }
+    
     @IBAction func nounOnButtonTap(sender: UIButton) {
         madLibInViewController.noun = (nounTexfField.text!)
     }
