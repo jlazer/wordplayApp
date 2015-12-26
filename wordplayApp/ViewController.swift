@@ -11,31 +11,33 @@
 import UIKit
 
 class ViewController: UIViewController, UITextFieldDelegate {
-    @IBOutlet weak var nounTexfField: UITextField!
+    @IBOutlet weak var nounTextField: UITextField!
     
     
    
     
     var madLibInViewController = madLib()
     
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        nounTexfField.delegate = self
+        //nounTexfField.delegate = self
         // Do any additional setup after loading the view, typically from a nib.
        
     }
     
     func textFieldShouldReturn(textField: UITextField) -> Bool {
-        madLibInViewController.noun = (nounTexfField.text!)
+        madLibInViewController.noun = (nounTextField.text!)
         textField.resignFirstResponder()
         performSegueWithIdentifier("nounSegue", sender: nil)
+        
     
         return true
     }
     
     @IBAction func nounOnButtonTap(sender: UIButton) {
-        madLibInViewController.noun = (nounTexfField.text!)
+        madLibInViewController.noun = (nounTextField.text!)
     }
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         let nextViewController = segue.destinationViewController as! VerbViewController

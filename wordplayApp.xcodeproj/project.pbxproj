@@ -18,6 +18,7 @@
 		E7D37FDA1C15DFF80003974D /* wordplayAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D37FD91C15DFF80003974D /* wordplayAppUITests.swift */; };
 		E7D37FE81C15E5310003974D /* MadLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D37FE71C15E5310003974D /* MadLib.swift */; };
 		E7E7C8F91C1B2868008F1886 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7E7C8F81C1B2868008F1886 /* Assets.xcassets */; };
+		F6AD901F1C2E36B20089932C /* NounTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AD901E1C2E36B20089932C /* NounTwoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		E7D37FDB1C15DFF80003974D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7D37FE71C15E5310003974D /* MadLib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MadLib.swift; sourceTree = "<group>"; };
 		E7E7C8F81C1B2868008F1886 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6AD901E1C2E36B20089932C /* NounTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NounTwoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				E7D37FB91C15DFF70003974D /* AppDelegate.swift */,
 				E7D37FBD1C15DFF70003974D /* Main.storyboard */,
 				E7D37FBB1C15DFF70003974D /* ViewController.swift */,
+				F6AD901E1C2E36B20089932C /* NounTwoViewController.swift */,
 				E759634A1C17395400E50BFD /* VerbViewController.swift */,
 				E71F7AE21C18803E006061F2 /* AdjectiveViewController.swift */,
 				E71F7AE41C188148006061F2 /* sentenceViewController.swift */,
@@ -272,6 +275,7 @@
 				E7D37FBC1C15DFF70003974D /* ViewController.swift in Sources */,
 				E759634B1C17395400E50BFD /* VerbViewController.swift in Sources */,
 				E71F7AE51C188148006061F2 /* sentenceViewController.swift in Sources */,
+				F6AD901F1C2E36B20089932C /* NounTwoViewController.swift in Sources */,
 				E7D37FBA1C15DFF70003974D /* AppDelegate.swift in Sources */,
 				E7D37FE81C15E5310003974D /* MadLib.swift in Sources */,
 			);

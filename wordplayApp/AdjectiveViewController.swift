@@ -20,7 +20,7 @@ class AdjectiveViewController: UIViewController, UITextFieldDelegate {
     }
 
     func textFieldShouldReturn(textField: UITextField) -> Bool {
-        madLibInAdjViewController.noun = (adjectiveTexfField.text!)
+        madLibInAdjViewController.noun = (adjectiveTextField.text!)
         textField.resignFirstResponder()
         performSegueWithIdentifier("adjectiveSegue", sender: nil)
         

@@ -20,7 +20,7 @@ class VerbViewController: UIViewController, UITextFieldDelegate {
     }
     
     func textFieldShouldReturn(textField: UITextField) -> Bool {
-        madLibInViewController.noun = (nounTexfField.text!)
+        madLibInVerbViewController.verb = (verbTextField.text!)
         textField.resignFirstResponder()
         performSegueWithIdentifier("verbSegue", sender: nil)
         
