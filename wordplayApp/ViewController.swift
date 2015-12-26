@@ -12,7 +12,7 @@ import UIKit
 
 class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var nounTextField: UITextField!
-    
+    // This is the outlet for poop.
     
    
     
@@ -40,8 +40,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
         madLibInViewController.noun = (nounTextField.text!)
     }
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        let nextViewController = segue.destinationViewController as! VerbViewController
-        nextViewController.madLibInVerbViewController = madLibInViewController
+        let nextViewController = segue.destinationViewController as! NounTwoViewController
+        nextViewController.madLibInNounTwoViewController = madLibInViewController
     }
     
     

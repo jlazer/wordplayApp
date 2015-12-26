@@ -21,7 +21,8 @@ class sentenceViewController: UIViewController {
         print(madLibInSentenceViewController.noun)
         print(madLibInSentenceViewController.verb)
         print(madLibInSentenceViewController.adjective)
-madLibSentenceLabel.text = " The \(madLibInSentenceViewController.adjective) \(madLibInSentenceViewController.noun) was \(madLibInSentenceViewController.verb) "
+        print(madLibInSentenceViewController.nounTwo)
+madLibSentenceLabel.text = " The \(madLibInSentenceViewController.adjective) \(madLibInSentenceViewController.nounTwo) \(madLibInSentenceViewController.noun) was \(madLibInSentenceViewController.verb) "
         // Do any additional setup after loading the view.
     }
 
